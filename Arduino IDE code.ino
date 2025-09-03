@@ -3,11 +3,11 @@
 #include <DHT.h>
 
 // ✅ WiFi credentials
-const char* ssid = "XARVIS 2.4G";
-const char* password = "february@2025";
+const char* ssid = "Network name";
+const char* password = "password";
 
 // ✅ Your Django server URL: update IP!
-String serverName = "http://192.168.10.192:8000/add/";
+String serverName = "http://Give you ip:8000/add/";
 
 // ✅ DHT setup
 #define DHTPIN D4
